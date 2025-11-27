@@ -282,6 +282,7 @@ async def preprocess_files_generator(
                 if file_data["ext"] in ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp']:
                     # description = await process_image_file(query, file_data["filename"], file_data["content"], tenant_id, language)
                     # truncation_percentage = None
+                    # todo
                     description = ""
                     truncation_percentage = None
                 else:
